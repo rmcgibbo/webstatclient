@@ -14,11 +14,11 @@
             <li><a href="#<%=cluster.id%>"><%= cluster.name %></a></li>
           <% end %>
         </ul>
-      
-        <form class="navbar-form  pull-right">
-          <button type="submit" class="btn btn-primary">Refresh</button>
-        </form>
-      
+
+
+        <a id="pullfromdaemons" class="btn btn-primary pull-right">Refresh</a>
+        <p class="navbar-text pull-right" style="padding-right: 10px"> Last Updated: <time class="timeago"> Not Loaded Yet</abbr></p>
+
       </div><!--/.nav-collapse -->
     </div>
   </div>
