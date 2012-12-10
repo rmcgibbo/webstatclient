@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="page-header">
+    <h1><%= @cluster.name %></h1>
+  </div>
+  <div class="row"> <!-- first row -->
+    <div class="span4" style="background: red;">
+      <h2>Nodes</h2>
+      <div class="chart1"></div>
+    </div>
+    <div class="span4">
+      <h2>Procs</h2>
+      <div class="chart2"></div>
+    </div>
+    <div class="span4">
+      <h2>Heading</h2>
+      <div class="chart3"></div>
+    </div>
+  </div> <!-- first row -->
+  <div class="row">
+    <div class="span8">
+      <div class="nodetable"></div>
+    </div>
+    <div class="span4">
+      <h2>Extra Space</h2>
+    </div>
+  </div> <!-- second row -->
+</div>
