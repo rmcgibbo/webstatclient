@@ -3,7 +3,7 @@ Spine = require('spine')
 
 class Cluster extends Spine.Model
     @configure 'Cluster', 'name', 'procs', 'nodes', 'freenodes', 'history', 'active'
-    @extend Spine.Model.Local, Spine.Events
+    @extend Spine.Events
     
     server: "http://vspm42-ubuntu.stanford.edu"
     

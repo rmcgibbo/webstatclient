@@ -1,0 +1,22 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>custer</th>
+            <th>name</th>
+            <th>load</th>
+            <th># procs</th>
+            <th># running</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for node in @nodes: %>
+        <tr>
+            <td><%= node.cluster %></td>
+            <td><%= node.name %></td>
+            <td><%= node.load %></td>
+            <td><%= node.n_procs %></td>
+            <td><%= node.n_running %></td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
